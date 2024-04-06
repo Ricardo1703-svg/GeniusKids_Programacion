@@ -9,6 +9,12 @@ header {
     padding: 20px 0;
 }
 
+.nombre_centro {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -88,9 +94,30 @@ footer {
 }
 
 .texto_Home {
+    text-align: justify;
     font-family: 'Times New Roman', Times, serif;
     font-size: 15px;
     float: right;
     width: 30%;
+}
+.derecha {
+    float: right;
+    margin-left: 10px;
+    width: 600px; 
+    height: 400px;
+}
+.texto_Home2 {
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    float: left;
+    width: 30%;
+}
+.contenedor_Home2 {
+    display: flex;
+    width: 100%;
+    justify-content:center; 
+    flex-wrap:wrap; 
+    gap: 16px; 
 }
 /* <----------------------------------------------------------------------------> */
