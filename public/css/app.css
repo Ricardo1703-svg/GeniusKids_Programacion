@@ -29,7 +29,7 @@ nav ul li a {
 /* <----------------------------------------------------------------------------> */
 
 /* <---------------------------Cartas--de--nosotros------------------------------> */
-.contenedor{ 
+.nosotros{ 
     display: flex; 
     justify-content:center; 
     flex-wrap:wrap; 
@@ -45,6 +45,12 @@ nav ul li a {
     border-radius:15px;
     font-family: sans-serif;
 }
+.imagen-circular {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
 .titulo{
     font-size: 24px;
     padding: 10px 10px 0 10px;;
@@ -52,5 +58,37 @@ nav ul li a {
 .cuerpo{
     padding: 10px;
     flex: 1 1 100%;
+}
+/* <----------------------------------------------------------------------------> */
+
+
+/* <-------------------------------Pie de Pagina--------------------------------> */
+footer {
+    background-color: #003366;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.pie_pagina{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    border-radius: 5px;
+    width: 80%;
+    margin: 0 auto;
+}
+/* <----------------------------------------------------------------------------> */
+
+/* <--------------------------Home Descripcion----------------------------------> */
+.contenedor_Home {
+    width: 100%;
+    display: flex; 
+    justify-content:center; 
+    flex-wrap:wrap; 
+    gap: 16px; 
+}
+
+.texto_Home {
+    float: right;
+    width: 30%;
 }
 /* <----------------------------------------------------------------------------> */

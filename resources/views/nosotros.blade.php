@@ -13,9 +13,10 @@
     <br>
     <br>
     <br>
-    <div class="contenedor">
+    <div class="nosotros">
         <div class="tarjeta">
             <center>
+                <img src="/img/perf.png" class="imagen-circular" alt="Imagen de perfil">
                 <h2 class="titulo">RICARDO ALEXANDER</h2>
                 <h2 class="titulo">ALVAREZ PORTILLO</h2>
             </center>
@@ -33,9 +34,10 @@
             </div>
         </div>
 
-        <div class="contenedor">
+        <div class="nosotros">
             <div class="tarjeta">
                 <center>
+                    <img src="/img/perf.png" class="imagen-circular" alt="Imagen de perfil">
                     <h2 class="titulo">EDVIN ABELARDO</h2>
                     <h2 class="titulo">GUEVARA VÁSQUEZ</h2>
                 </center>
@@ -53,9 +55,10 @@
                 </div>
             </div>
 
-            <div class="contenedor">
+            <div class="nosotros">
                 <div class="tarjeta">
                     <center>
+                        <img src="/img/perf.png" class="imagen-circular" alt="Imagen de perfil">
                         <h2 class="titulo">LUISA FERNANDA</h2>
                         <h2 class="titulo">MEDRANO CRUZ</h2>
                     </center>
@@ -73,9 +76,10 @@
                     </div>
                 </div>
 
-                <div class="contenedor">
+                <div class="nosotros">
                     <div class="tarjeta">
                         <center>
+                            <img src="/img/perf.png" class="imagen-circular" alt="Imagen de perfil">
                             <h2 class="titulo">JEISON BALDOMAR</h2>
                             <h2 class="titulo">VENTURA SORTO</h2>
                         </center>
@@ -102,8 +106,6 @@
     <br>
     <br>
     <br>
-    <footer>
-        <p>&copy; 2024 GeniusKids. Todos los derechos reservados.</p>
-    </footer>   
 </body>
+@include('includes.footer')
 </html>
