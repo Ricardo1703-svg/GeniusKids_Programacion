@@ -12,18 +12,18 @@
     </header>
     <br>
     <div class="contenedor_Home">
-        <img src="/img/logo_geniuskids.png">
-        <div class="texto_Home">
+        <img src="/img/logo_geniuskids.png" class="izquierda">
+        <div class="texto_Home2">
             <h1>Geniuskids</h1>
             <p>Nuestro proyecto es una innovadora aplicación centrada en el aprendizaje
-            infantil, diseñada para niños de 3 a 8 años. La aplicación se estructura en tres
-            fases o niveles progresivos, cada uno compuesto por áreas fundamentales:
-            Lenguaje, Ciencia, Matemáticas e Ingles. Este enfoque integral garantiza un desarrollo
+            infantil, diseñada para niños de 3 a 8 años. La aplicación se estructura en tres fases o niveles progresivos, cada uno compuesto por áreas fundamentales:
+            Lenguaje, Ciencia, Matemáticas e Inglés. Este enfoque integral garantiza un desarrollo
             equilibrado y completo de las habilidades cognitivas de los niños, abarcando
             desde lo básico hasta niveles avanzados según la edad y el progreso individual
             de cada niño.</p>
         </div>
     </div>
+
     <br>
     <br>
     <br>
