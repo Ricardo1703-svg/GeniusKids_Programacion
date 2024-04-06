@@ -14,7 +14,7 @@
     <div class="contenedor_Home">
         <img src="/img/logo_geniuskids.png">
     <div class="texto_Home">
-        <h2>Geniuskids</h2>
+        <h1>Geniuskids</h1>
         <p>Nuestro proyecto es una innovadora aplicación centrada en el aprendizaje
         infantil, diseñada para niños de 3 a 8 años. La aplicación se estructura en tres
         fases o niveles progresivos, cada uno compuesto por áreas fundamentales:
@@ -24,6 +24,24 @@
         de cada niño.</p>
     </div>
 </div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 <br>
 </body>
 @include('includes.footer')
