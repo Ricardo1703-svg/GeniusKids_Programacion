@@ -1,12 +1,23 @@
 @charset "utf-8";
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif
+    
 }
+
+body {
+    margin: 0;
+    background-image: url('/img/fondo.jpg');
+    background-size: cover; /* Para cubrir todo el fondo */
+    background-repeat: no-repeat; /* Para que la imagen de fondo no se repita */
+}
+
 /* <------------------------Barra de Navegacion---------------------------------------> */
 header {
-    background-color: #40caca;
+    background-color:#093969;
     padding: 20px 0;
+
+
 }
 
 .nombre_centro {
@@ -28,7 +39,7 @@ nav ul li {
 
 nav ul li a {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #000000;
+    color: #f7f2f2;
     text-decoration: none;
     padding: 10px 20px;
 }
@@ -41,20 +52,22 @@ nav ul li a {
     flex-wrap:wrap; 
     gap: 16px; 
 } 
-.tarjeta{
-    display:flex;
-    flex-direction:column;
-    justify-content:space-between;
-    width: auto;
+.tarjeta {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: center;
     border: 2px solid rgb(0, 0, 0);
     box-shadow: 2px 2px 8px 4px #d3d3d3d1;
-    border-radius:15px;
+    border-radius: 15px;
     font-family: sans-serif;
+    background-color: #f8f6f6; /* Color de fondo blanco */
 }
+
 .imagen-circular {
     width: 150px;
     height: 150px;
-    border-radius: 50%;
+    border-radius: 30%;
     object-fit: cover;
 }
 .titulo{
@@ -70,7 +83,7 @@ nav ul li a {
 
 /* <-------------------------------Pie de Pagina--------------------------------> */
 footer {
-    background-color: #003366;
+    background-color: #093969;
     color: white;
     padding: 20px;
     text-align: center;
@@ -87,12 +100,28 @@ footer {
 /* <--------------------------Home Descripcion----------------------------------> */
 
 /* <------------------------------------------------------------> */
+
 .contenedor_Home {
     display: flex;
     width: 100%;
     justify-content:center; 
     flex-wrap:wrap; 
-    gap: 16px; 
+    gap: 16px;
+    
+    
+}
+
+.texto_Home1 {
+    text-align: justify;
+    font-family: 'Helvetica', Times, serif;
+    font-size: 15px;
+    float: left;
+    width: 30%;
+    color: rgb(0, 0, 0); /* Agregando el color blanco */
+    background-color: rgb(109, 243, 209); /* Agregando el color de fondo blanco */
+    padding: 10px; /* Agregando un relleno alrededor del texto */
+    border-radius: 10px; /* Agregando bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Agregando sombra */
 }
 
 .izquierda {
@@ -102,27 +131,37 @@ footer {
 
 .texto_Home {
     text-align: justify;
-    flex: 1;
     font-size: 15px;
-    float: right;
-    width: 30%;
+    width: 70%;
 }
+
+
 /* <------------------------------------------------------------> */
 
 /* <------------------------------------------------------------> */
 .derecha {
     float: right;
     margin-left: 10px;
+    margin-top: 80px; /* Puedes ajustar este valor según sea necesario */
     width: 600px; 
     height: 400px;
 }
+
 .texto_Home2 {
     text-align: justify;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Helvetica', Times, serif;
     font-size: 15px;
     float: left;
     width: 30%;
+    color: rgb(0, 0, 0);
+    background-color: white; /* Agregando el color de fondo blanco */
+    padding: 10px; /* Agregando un relleno alrededor del texto */
+    border-radius: 10px; /* Agregando bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Agregando sombra */
 }
+
+
+
 .contenedor_Home2 {
     display: flex;
     width: 100%;

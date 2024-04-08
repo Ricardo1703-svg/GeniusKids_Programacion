@@ -12,10 +12,10 @@
     </header>
     <br>
     <div class="contenedor_Home">
-        <img src="/img/logo_geniuskids.png" class="izquierda">
+        <img src="/img/LOGO-removebg-preview.png" class="izquierda">
         <div class="texto_Home2">
             <h1>Geniuskids</h1>
-            <p>Nuestro proyecto es una innovadora aplicación centrada en el aprendizaje
+            <p>Nuestro sitio web esta centrada en el aprendizaje
             infantil, diseñada para niños de 3 a 8 años. La aplicación se estructura en tres fases o niveles progresivos, cada uno compuesto por áreas fundamentales:
             Lenguaje, Ciencia, Matemáticas e Inglés. Este enfoque integral garantiza un desarrollo
             equilibrado y completo de las habilidades cognitivas de los niños, abarcando
@@ -29,7 +29,7 @@
     <br>
     <div class="contenedor_Home2">
         <div class="texto_Home2">
-            <h2>Fases/Niveles:</h2>
+            <h2>Fases:</h2>
             <p>
                 <b>Fase de Fundamentos (3-4 años):</b>
                 En esta fase inicial, los niños se sumergirán
@@ -59,7 +59,7 @@
                 pensamiento crítico.
             </p>
         </div>
-        <img class="derecha" src="/img/niños.jpg">
+        <img class="derecha" src="/img/OIP-removebg-preview.png" >
     </div>
     <br>
     <br>
