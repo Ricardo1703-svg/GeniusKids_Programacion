@@ -16,6 +16,7 @@
     <div class="nosotros">
         <div class="tarjeta">
             <center>
+            <br>
                 <img src="/img/perf.png" class="imagen-circular" alt="Imagen de perfil">
                 <h2 class="titulo">RICARDO ALEXANDER</h2>
                 <h2 class="titulo">ALVAREZ PORTILLO</h2>
@@ -37,6 +38,7 @@
         <div class="nosotros">
             <div class="tarjeta">
                 <center>
+                <br>
                     <img src="/img/perf.png" class="imagen-circular" alt="Imagen de perfil">
                     <h2 class="titulo">EDVIN ABELARDO</h2>
                     <h2 class="titulo">GUEVARA VÁSQUEZ</h2>
@@ -58,6 +60,7 @@
             <div class="nosotros">
                 <div class="tarjeta">
                     <center>
+                    <br>
                         <img src="/img/perf.png" class="imagen-circular" alt="Imagen de perfil">
                         <h2 class="titulo">LUISA FERNANDA</h2>
                         <h2 class="titulo">MEDRANO CRUZ</h2>
@@ -79,6 +82,7 @@
                 <div class="nosotros">
                     <div class="tarjeta">
                         <center>
+                        <br>
                             <img src="/img/perf.png" class="imagen-circular" alt="Imagen de perfil">
                             <h2 class="titulo">JEISON BALDOMAR</h2>
                             <h2 class="titulo">VENTURA SORTO</h2>
