@@ -106,6 +106,9 @@
     <br>
     <br>
     <br>
+    <br>
+    <br>
+    <br>
 </body>
 @include('includes.footer')
 </html>
