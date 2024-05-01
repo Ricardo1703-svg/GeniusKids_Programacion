@@ -8,13 +8,13 @@ body {
 body {
     margin: 0;
     background-image: url('/img/fondo.jpg');
-    background-size: cover; /* Para cubrir todo el fondo */
-    background-repeat: no-repeat; /* Para que la imagen de fondo no se repita */
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 /* <------------------------Barra de Navegacion---------------------------------------> */
 header {
-    background-color:#f3f6f9;
+    background-color:#2972bc;
     padding: 20px 0;
 }
 
