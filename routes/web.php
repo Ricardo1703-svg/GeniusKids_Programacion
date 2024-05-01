@@ -9,3 +9,7 @@ Route::get('/', function () {
 Route::get('/nosotros', function () {
     return view('nosotros');
 });
+
+Route::get('/registro', function () {
+    return view('IntroData.registro');
+});
